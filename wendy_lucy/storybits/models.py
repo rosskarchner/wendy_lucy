@@ -7,7 +7,7 @@ class Scene(models.Model):
     title = models.CharField(max_length=255)
     text = models.TextField()
 
-    def __unicode__(self):
+    def __str__(self):
         return self.title
 
 
